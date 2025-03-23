@@ -1,0 +1,10 @@
+{
+  "name": "edtech-app",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "react-scripts start"
+  },
+  "dependencies": {
+    "react-scripts": "^5.0.1"
+  }
+}
