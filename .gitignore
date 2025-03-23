@@ -51,11 +51,11 @@ coverage/
 *.tsbuildinfo
 
 # Ignore all files in the root directory except the necessary ones
-/*
 !.gitignore
 !package.json
 !package-lock.json
 !yarn.lock
 !README.md
 !src/
-!public/   
+!public/
+!backend/

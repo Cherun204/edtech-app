@@ -1,0 +1,35 @@
+.app {
+    text-align: center;
+    margin-top: 60px; /* Adjust this value based on the height of your header */
+}
+
+body {
+    background-color: #f0f0f0; /* Different background color for the body */
+}
+header {
+    background-color: #c84be1; /* Header color */
+    color: rgba(202, 18, 18, 0.913);
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+header.scrolled {
+    background-color: rgba(0, 123, 255, 0.8); /* Change header color on scroll */
+    opacity: 0.9; /* Slightly transparent on scroll */
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer {
+    margin-top: 20px;
+}

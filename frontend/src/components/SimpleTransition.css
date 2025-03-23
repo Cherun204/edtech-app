@@ -1,0 +1,14 @@
+.transition-container {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.transition-container.visible {
+    opacity: 1;
+}
+
+.transition-container h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 20px;
+}
