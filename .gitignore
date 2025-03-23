@@ -58,4 +58,4 @@ coverage/
 !yarn.lock
 !README.md
 !src/
-!public/
+!public/   
